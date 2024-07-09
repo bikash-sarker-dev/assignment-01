@@ -257,3 +257,56 @@ section {
   color: rgb(13, 19, 33);
 }
 /* my next target section style end */
+/* I need support section style start  */
+.support {
+  height: 313px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url("../assets/handshake.jpg");
+  background-blend-mode: overlay;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.support-title h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+  margin: 16px 0;
+}
+.support-title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+.support input[type="text"] {
+  width: 400px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 19px 20px 19px 20px;
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.support input[type="submit"] {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  border: none;
+  margin-left: 16px;
+  color: rgb(13, 19, 33);
+  cursor: pointer;
+}
+/* I need support section style end */
