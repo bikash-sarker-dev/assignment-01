@@ -168,3 +168,15 @@ section {
   margin-left: 50px;
 }
 /* web development section style end */
+/* my inspiration section style start   */
+.inspiration-video {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+.inspiration-video iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+}
+/* my inspiration section style end */
