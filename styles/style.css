@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -17,7 +20,7 @@
   width: 1140px;
   margin: 0 auto;
 }
-section {
+.section-gap {
   margin: 100px 0;
 }
 
@@ -46,6 +49,9 @@ section {
   align-items: center;
   margin: 47px 0;
 }
+.navbar .nav-logo a {
+  text-decoration: none;
+}
 .navbar .nav-logo h2 {
   font-size: 28px;
   font-weight: 800;
@@ -62,6 +68,16 @@ section {
   opacity: 0.8;
   padding: 17px 24px 17px 24px;
   background-color: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
+}
+.navbar .nav-download .btn-download:hover {
+  color: #fff;
+  background-color: #0d1321;
 }
 /* header section style end */
 /* the banner section style start */
@@ -310,3 +326,29 @@ section {
   cursor: pointer;
 }
 /* I need support section style end */
+
+/* this is footer section start  */
+footer {
+  margin-top: 100px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+.footer-content p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #0d1321;
+}
+.footer-social ul {
+  display: flex;
+  gap: 24px;
+}
+.footer-social ul li {
+  list-style: none;
+}
