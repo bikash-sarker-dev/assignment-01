@@ -17,7 +17,28 @@
   width: 1140px;
   margin: 0 auto;
 }
+section {
+  margin: 100px 0;
+}
 
+.section-head {
+  width: 946px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-head .title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+.section-head .description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+  opacity: 0.7;
+}
 /* header section style start  */
 .navbar {
   display: flex;
@@ -86,3 +107,64 @@
   cursor: pointer;
 }
 /* the banner section style end */
+
+/* web development section style start  */
+.web-dev {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+}
+.web-code-item {
+  border-radius: 16px;
+  padding: 30px 48px 48px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 32px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.web-code-item .web-content {
+  width: 477px;
+}
+.web-code-item .web-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgba(13, 19, 33, 0.7);
+}
+.web-code-item .web-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px 0 32px;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.web-code-item .web-content a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  text-decoration: none;
+  color: #0d1321;
+}
+
+.second-item-web {
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  justify-content: start;
+}
+.second-item-web .web-content {
+  margin-left: 50px;
+}
+/* web development section style end */
