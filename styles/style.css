@@ -11,3 +11,35 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* common style  */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* header section style start  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 47px 0;
+}
+.navbar .nav-logo h2 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  color: #0d1321;
+}
+
+.navbar .nav-download .btn-download {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 17px 24px 17px 24px;
+  background-color: none;
+}
+/* header section style end */
